@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>complete responsive nike shoe website design tutorial</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts-->
+
+<div id="menu-btn" class="fas fa-bars"></div>
+
+<header class="header">
+
+   <a href="#" class="logo">Watch</a>
+
+   <nav class="navbar">
+      <a href="#banner" >BANNER</a>
+      <a href="#products">WATCH LIST</a>
+      <a href="#contact">SUBMIT</a>
+   </nav>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+
+   <p class="credit"> &copy; COPYRIGHT @2022 BY M.N. Xu </p>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- banner section starts  -->
+
+<section class="banner" id="banner">
+
+   <div class="content">
+      <h3>Dear Jon:</h3>
+      <h3>Happy Birthday!</h3>
+      <p>Please finish this selection before March 1st, so I could have more time prepare the gift.</p>
+      <a href="#products" class="btn">select now</a>
+   </div>
+
+   <div class="image">
+      <img src="images/sample_1.png" alt="">
+   </div>
+
+   <div class="image2">
+      <img src="images/sample_2.png" alt="">
+   </div>
+
+   <div class="image3">
+      <img src="images/sample_3.png" alt="">
+   </div>
+
+   <div class="image4">
+      <img src="images/sample_4.png" alt="">
+   </div>
+
+</section>
+
+<!-- banner section ends -->
+
+<!-- prodcuts section starts  -->
+
+<section class="products" id="products">
+
+   <h1 class="heading"> Watch <span>List</span> </h1>
+
+   <div class="swiper products-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <img src="images/product-img1.jpg" alt="">
+            <h3>nike airmax</h3>
+            <div class="btn" data-product="product-1">see details</div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/product-img2.jpg" alt="">
+            <h3>nike airmax</h3>
+            <div class="btn" data-product="product-2">see details</div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/product-img3.jpg" alt="">
+            <h3>nike airmax</h3>
+            <div class="btn" data-product="product-3">see details</div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/product-img4.jpg" alt="">
+            <h3>nike airmax</h3>
+            <div class="btn" data-product="product-4">see details</div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/product-img5.jpg" alt="">
+            <h3>nike airmax</h3>
+            <div class="btn" data-product="product-5">see details</div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/M01.png" alt="">
+            <h3>MEIDU chronometer multifort</h3>
+            <div class="btn" data-product="product-6">see details</div>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- prodcuts section ends -->
+
+<!-- product preview section starts  -->
+
+<section class="products-preview-container">
+
+   <div class="product-preview" data-target="product-1">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/product-img1.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>nike airmax</h3>
+         <h3 class="product_id">01</h3>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eligendi, corporis sed culpa assumenda odio ullam itaque porro facere quaerat!</p>
+         <button onclick="fillForm('nike airmax', 1)" on class="btn">Select</button>
+      </div>
+   </div>
+
+   <div class="product-preview" data-target="product-2">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/product-img2.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>nike airmax</h3>
+         <h3 class="product_id">02</h3>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eligendi, corporis sed culpa assumenda odio ullam itaque porro facere quaerat!</p>
+         <button onclick="fillForm('nike airmax', 2)" on class="btn">Select</button>
+      </div>
+   </div>
+
+   <div class="product-preview" data-target="product-3">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/product-img3.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>nike airmax</h3>
+         <h3 class="product_id">03</h3>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eligendi, corporis sed culpa assumenda odio ullam itaque porro facere quaerat!</p>
+         <button onclick="fillForm('nike airmax, 3')" on class="btn">Select</button>
+      </div>
+   </div>
+
+   <div class="product-preview" data-target="product-4">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/product-img4.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>nike airmax</h3>
+         <h3 class="product_id">04</h3>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eligendi, corporis sed culpa assumenda odio ullam itaque porro facere quaerat!</p>
+         <button onclick="fillForm('nike airmax', 4)" on class="btn">Select</button>
+      </div>
+   </div>
+
+   <div class="product-preview" data-target="product-5">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/product-img5.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>nike airmax</h3>
+         <h3 class="product_id">05</h3>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eligendi, corporis sed culpa assumenda odio ullam itaque porro facere quaerat!</p>
+         <button onclick="fillForm('nike airmax', 5)" on class="btn">Select</button>
+      </div>
+   </div>
+
+   <div class="product-preview" data-target="product-6">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/M01.png" alt="">
+      </div>
+      <div class="content">
+         <h3>MEIDU chronometer multifort</h3>
+         <h3 class="product_id">06</h3>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eligendi, corporis sed culpa assumenda odio ullam itaque porro facere quaerat!</p>
+         <a href="#contact">
+            <button onclick="fillForm('MEIDU chronometer multifort', 6)" on class="btn">Select</button>
+         </a>
+      </div>
+   </div>
+
+</section>
+
+<!-- product preview section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <h1 class="heading"> <span>Submit</span> Your Choice </h1>
+
+   <div class="row">
+     <form action="https://formspree.io/f/xdobeqpk" method="POST">
+         <input id="name" type="text" placeholder= "watch brand" name="watch name" style="text-indent:10px" class="box" required>
+         <input id="number" type="number" placeholder= "product number" name="product number" style="text-indent:10px" class="box" required>
+         <input id="email" type="email" placeholder= "email" name="email" style="text-indent:10px" class="box" required>
+         <textarea name="" class="box" placeholder="message" style="text-indent:10px" id="" cols="30" rows="10"></textarea>
+         <input type="submit" value="Submit" class="btn">
+      </form>
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
