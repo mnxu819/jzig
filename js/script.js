@@ -80,6 +80,9 @@ function fillForm(prodname, prodid){
   document.getElementById("name").value=prodname;
   document.getElementById("number").value=prodid
   productPreviewContainer.style.display = 'none';
+  prodcutPreview.forEach(closePreview =>{
+    closePreview.style.display = 'none';
+  });
   window.location.href = "#contact";
 }
 
