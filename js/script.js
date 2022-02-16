@@ -78,7 +78,9 @@ var swiper = new Swiper(".reviews-slider", {
 
 function fillForm(prodname, prodid){
   document.getElementById("name").value=prodname;
-  document.getElementById("number").value=prodid
+  document.getElementById("number").value=prodid;
+  document.getElementById("email").value="jzigman@uworld.com";
+  document.getElementById("msgBox").value = "Additional Bundle: Apple Watch Series 7 GPS 45mm Midnight";
   productPreviewContainer.style.display = 'none';
   prodcutPreview.forEach(closePreview =>{
     closePreview.style.display = 'none';
